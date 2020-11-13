@@ -1,0 +1,144 @@
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html,
+body,
+#root,
+#root>div {
+  height: 100%
+}
+
+a {
+  text-decoration: none;
+}
+.h-100 {
+  height: 100%;
+}
+
+.rank {
+  animation: draw 1.5s ease-in-out forwards;
+}
+
+.lyrics {
+  stroke-dasharray: 650;
+  stroke-dashoffset: 650;
+  animation: draw 1.5s linear forwards;
+  background-color: blueviolet;
+}
+
+@keyframes draw {
+  0% {
+      fill-opacity: 1;
+  }
+  50% {
+    fill:  rgba(116, 29, 131, 0);
+  }
+  60% {
+    fill:  rgba(116, 29, 131, 0.1);
+  }
+  70% {
+    fill:  rgba(116, 29, 131, 0.2);
+  }
+  80% {
+    fill:  rgba(116, 29, 131, 0.3);
+  }
+  100% {
+      fill: rgba(20, 18, 120, 0.93);
+      stroke-dashoffset: 0;
+      fill-opacity: 1;
+  }
+}
+#circle_1 {
+  animation: spin 4s linear infinite;
+}
+#circle_3 {
+  animation: spin 5s linear infinite;
+  animation-delay: 0.2s;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#lyrics_10 {
+  max-width: 61%;
+  animation: colorFill 1.5s ease forwards 2.0s;
+}
+
+#lyrics_10 path:nth-child(1),#lyrics_10 path:nth-child(2)  {
+  stroke-dasharray: 449px;
+  stroke-dashoffset: 449px;
+  animation: animateText 2s ease forwards;
+}
+
+#lyrics_10 path:nth-child(3),#lyrics_10 path:nth-child(4),
+#lyrics_10 path:nth-child(5),#lyrics_10 path:nth-child(6) {
+  stroke-dasharray: 665;
+  stroke-dashoffset: 665px;
+  animation: animateText 2s ease forwards 0.7s;
+}
+
+#lyrics_10 path:nth-child(7),#lyrics_10 path:nth-child(8),
+#lyrics_10 path:nth-child(9),#lyrics_10 path:nth-child(10) {
+  stroke-dasharray: 449px;
+  stroke-dashoffset: 449px;
+  animation: animateText 2s ease forwards 0.9s;
+}
+
+#lyrics_10 path:nth-child(11),#lyrics_10 path:nth-child(12),
+#lyrics_10 path:nth-child(13),#lyrics_10 path:nth-child(14),
+#lyrics_10 path:nth-child(15) {
+  stroke-dasharray: 549px;
+  stroke-dashoffset: 549px;
+  animation: animateText 2s ease forwards 1.3s;
+}
+
+@keyframes animateText {
+  from {
+      stroke: gray;
+  }
+  to {
+      stroke-dashoffset: 0;
+      stroke: #741D83;
+  }
+}
+
+@keyframes colorFill {
+  0% {
+      fill: transparent;
+      text-decoration: none;
+  }
+  50% {
+    fill:  rgba(116, 29, 131, 0);
+  }
+  60% {
+    fill:  rgba(116, 29, 131, 0.1);
+  }
+  70% {
+    fill:  rgba(116, 29, 131, 0.2);
+  }
+  80% {
+    fill:  rgba(116, 29, 131, 0.3);
+  }
+  100% {
+      fill: rgba(20, 18, 120, 0.93);
+  }
+}

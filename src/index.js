@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 //import { BrowserRouter, Switch } from 'react-router-dom';
-import './index.css';
+//import './index.css';
+import './style/index.scss';
 import Content from './partials/Content';
 
 ReactDOM.render(

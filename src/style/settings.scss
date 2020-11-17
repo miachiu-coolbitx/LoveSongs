@@ -1,0 +1,39 @@
+@charset "UTF-8";
+// font
+$font-main:'Noto Sans TC', 微軟正黑體, STHeiti, sans-serif;
+$font-k: 'Karla', sans-serif;
+$font-p: 'Playfair Display', serif;
+$h-line-height: 1.6;
+$h-font-weight: 700;
+$fs-75: 0.75rem;
+$fs-85: 0.85rem;
+$fs-95: 0.95rem;
+$fs-1: 1rem; 
+
+// colors
+$main-color: #FFDB9C;
+$sec-color: rgb(222,184,135);
+$body-color: #342C2A;
+$white: #fff;
+$black: #111;
+$gray: #888683;
+$red: #D30011;
+$lighter: #EBE9E7;
+$alpha-5: 0.5;
+$alpha-8: 0.8;
+
+//screen
+$screen-xs: 576px !default;
+$screen-sm: 768px !default;
+$screen-md: 992px !default;
+$screen-lg: 1200px !default;
+$screen-xs-max: ($screen-xs - 1) !default;
+$screen-sm-max: ($screen-sm - 1) !default;
+$screen-md-max: ($screen-md - 1) !default;
+$screen-lg-max: ($screen-lg - 1) !default;
+
+//styles
+$grid-gutter-width: 50px !default;
+$border-radius-base: 4px !default;
+$padding-main: 0.9rem !default;
+$form-mb: 15px !default;

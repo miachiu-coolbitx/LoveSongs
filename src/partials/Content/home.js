@@ -80,9 +80,9 @@ export default function Home() {
       </Lyrics>
       <Film>
         <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/bkMgsFyKNvo?start=125&autoplay=1&loop=1"
+          width="640"
+          height="360"
+          src="https://www.youtube.com/embed/bkMgsFyKNvo?start=125&autoplay=1&loop=0"
           frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         ></iframe>

@@ -2,7 +2,7 @@ import React from 'react';
 import { Wrapper, FormStyle } from './style';
 import { ContentMiddle } from '../../style/style';
 
-export default function Test(props) {
+export default function Song_8(props) {
   return (
     <ContentMiddle>
       <FormStyle>

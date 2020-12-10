@@ -78,12 +78,12 @@ export const Film = styled.div`
   right: 45px;
 `;
 
-export const Rank = styled.div`
+export const Num_ring = styled.div`
   position: absolute;
   top: 85px;
   left: 25px;
 `;
-export const Rank_num = styled.div`
+export const Song_num = styled.div`
   position: absolute;
   top: 125px;
   left: 60px;

@@ -72,20 +72,22 @@ export const Lyrics = styled.div`
   z-index: 10;
 `;
 
-export const Film = styled.div`
-  position: absolute;
-  top: 18%;
-  right: 45px;
-`;
+// export const Film = styled.div`
+//   position: absolute;
+//   top: 18%;
+//   right: 45px;
+// `;
 
 export const Num_ring = styled.div`
   position: absolute;
   top: 85px;
   left: 25px;
+  z-index: 99;
 `;
 export const Song_num = styled.div`
   position: absolute;
   top: 125px;
   left: 60px;
   font-size: 14px;
+  z-index: 99;
 `;

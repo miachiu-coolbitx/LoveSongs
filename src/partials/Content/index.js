@@ -19,7 +19,6 @@ export default function Content() {
             <Route path="/song_8" component={Song_8} />
           </Switch>
         </BrowserRouter>
-        <Song_10></Song_10>
       </Wrapper>
     </div>
   );

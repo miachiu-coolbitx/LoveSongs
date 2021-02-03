@@ -5,8 +5,13 @@ export const Wrapper = styled.div`
   position: relative;
   margin: 0;
   padding: 0;
-  background-color: ${colors.primary};
   z-index: -10;
+`;
+
+export const Bg_10 = styled.div`
+  position: relative;
+  height: 100%;
+  background: ${colors.bg_10};
 `;
 
 export const ContentMiddle = styled.div`
@@ -15,7 +20,6 @@ export const ContentMiddle = styled.div`
   height: 100%;
   margin: auto;
   padding: 30px;
-  ${(props) => props.styles}
 `;
 
 export const Picture = styled.div`

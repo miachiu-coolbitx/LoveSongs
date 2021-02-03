@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import { Num_ring, Song_num } from '../partials/Content/style';
 
 export default function Num(props) {
-  const {test_num} = props;
+  const { song_num } = props;
   return (
     <div>
-      <Song_num>{test_num}</Song_num>
+      <Song_num>{song_num}</Song_num>
       <Num_ring>
         <svg
           width="87"

@@ -63,6 +63,7 @@ export const NextBtn = styled.button`
   bottom: 6%;
   right: 6%;
   padding: 12px 30px;
+  z-index: 999;
 `;
 
 export const Lyrics = styled.div`
@@ -72,22 +73,26 @@ export const Lyrics = styled.div`
   z-index: 10;
 `;
 
-// export const Film = styled.div`
-//   position: absolute;
-//   top: 18%;
-//   right: 45px;
-// `;
-
 export const Num_ring = styled.div`
   position: absolute;
   top: 85px;
   left: 25px;
-  z-index: 99;
+  z-index: 999;
 `;
 export const Song_num = styled.div`
   position: absolute;
   top: 125px;
   left: 60px;
   font-size: 14px;
-  z-index: 99;
+  z-index: 999;
+`;
+
+export const Film_9 = styled.div`
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 15.5em;
+  height: 15.5em;
+  border-radius: 50%;
 `;
